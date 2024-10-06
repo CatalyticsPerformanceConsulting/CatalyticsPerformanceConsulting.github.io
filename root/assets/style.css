@@ -1,0 +1,87 @@
+:root {
+  --cpc-dark-blue: #001689;
+  --cpc-green: #6bc048;
+  --cpc-yellow: #ffc107;
+  --cpc-dark-blue-rgb: 0, 22, 137;
+  --cpc-green-rgb: 107, 192, 72;
+  --cpc-font-serif: "Port Lligat Slab", serif;;
+  --cpc-font-sans-serif: 'PT Sans Narrow', sans-serif;
+  --cpc-body-color: #292929;
+}
+
+body {
+    font-family: var(--cpc-font-sans-serif);
+    color: var(--cpc-body-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--cpc-font-serif);
+}
+
+h2, h3 {
+    color: var(--cpc-dark-blue);
+}
+
+body a {
+    text-decoration: none;
+}
+
+.cpc-header {
+    border-bottom: 8px solid var(--cpc-green);
+}
+.cpc-header .cpc-logo {
+    width: 300px;
+    max-width: 90%;
+}
+.cpc-header .navbar {
+    text-align: center;
+}
+.cpc-header .navbar.navbar-light a {
+    color: var(--cpc-dark-blue);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cpc-header .navbar.navbar-light .navbar-toggler {
+    font-size: 1.5rem;
+}
+
+.cpc-title {
+    background-color: var(--cpc-dark-blue);
+    color: #fff;
+}
+.cpc-title .cpc-divider {
+    border: 1px solid var(--cpc-green);
+    width: 60%;
+}
+
+.cpc-service-item p {
+    color: var(--cpc-green);
+    font-family: var(--cpc-font-serif);
+    text-transform: uppercase;
+}
+.cpc-service-item img {
+    height: 60px;
+}
+
+.cpc-person img {
+    width: 400px;
+    max-width: 90%;
+}
+
+.cpc-value {
+    color: var(--cpc-yellow);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cpc-footer {
+    background-color: var(--cpc-dark-blue);
+    color: #fff;
+}
+.cpc-footer .logo {
+    width: 200px;
+    max-width: 90%;
+}
+.cpc-footer h2, .cpc-footer a {
+    color: #fff;
+}
